@@ -1,0 +1,215 @@
+#!/usr/bin/env python
+# coding: utf-8
+
+# In[1]:
+
+
+(/example, for, python, code)
+print ("Hello")
+
+
+# In[12]:
+
+
+(/example, for, Back, slash)
+print ("Hello python")
+
+
+# In[10]:
+
+
+(/example, for, triple, quotes)
+print(""" Hello Everey one""")
+
+
+# //if we want ' in code then we have to use "" only else it is an error
+
+# In[7]:
+
+
+
+print("Hello  python's world")
+
+
+# //Escape sequence of string
+
+# In[8]:
+
+
+print("Hello\tpython")
+
+
+# In[9]:
+
+
+(/new, line, \n)
+print("Hello\npython")
+
+
+# In[10]:
+
+
+(/, if, u, dont, like, double, quotes)
+print('Hello  python\'s world')
+
+
+# In[11]:
+
+
+name ="xyz"
+marks = "90"
+age ="20"
+print("The name of person is ",name,"marks is",marks,"age is,age")
+
+
+# # python variable
+
+# * Variable ,eans linking of the data to a names
+# * According to data type,the intrpreter reserves the memory spaces 
+# * Variable refers to the memory location that contains the data
+
+# ## Rules to define a variable;
+# * A keyword cannot be used as a variable "if""def",and"for", are the
+#   reserved keywords.They cannot be used as variables.
+# * A Variable can contain letters (upper case or lower case),numbers underscore.
+# * Python is case sensitive and hence,variables are also case sensitive.
+# * A variable cannot start with a number.
+# * A Variable is assigned to data by using  the asssignment operator
+
+# In[14]:
+
+
+5**5
+
+
+# In[15]:
+
+
+58-20
+
+
+# In[16]:
+
+
+58-20
+
+
+# In[17]:
+
+
+10/2
+
+
+# In[19]:
+
+
+a=10
+c=20
+a==c
+
+
+# # Python Operators
+# Operators are used to perform operations on variables and values.
+# 
+# Python divides the operators in the following groups:
+# Arithmetic operators
+# Assignment operators
+# Comparison operators
+# Logical operators
+# Identity operators
+# Membership operators
+# Bitwise operators
+
+# Python Arithmetic Operators
+# Arithmetic operators are used with numeric values to perform common mathematical operations:
+# 
+# operators   	 Name	        Example	
+# +	           Addition	        x + y	
+# -	           Subtraction	    x - y	
+# *	           Multiplication	x * y	
+# /              Division	        x / y	
+# %	           Modulus	        x % y	
+# **	          Exponentiation	 x ** y	
+# //	         Floor division	     x // y	
+# 
+#  
+
+# In[22]:
+
+
+x = 5
+y = 3
+
+print(x * y)
+
+
+# In[ ]:
+
+
+Python Bitwise Operators
+Bitwise operators are used to compare (binary) numbers:
+
+Operator	Name	               Description
+& 	        AND	         Sets each bit to 1 if both bits are 1
+|	        OR	         Sets each bit to 1 if one of two bits is 1
+ ^	        XOR	          Sets each bit to 1 if only one of two bits is 1
+~ 	       NOT	            Inverts all the bits
+<<	      Zero fill leftshift	Shift left by pushing zeros in from the right and let the leftmost bits fall off
+>>	      Signed right shift	Shift right by pushing copies of the leftmost bit in from the left, and let the rightmost bits fall off
+
+
+# In[21]:
+
+
+x = ["apple", "banana"]
+
+print("banana" in x)
+
+
+# In[ ]:
+
+
+Python Comparison Operators
+Comparison operators are used to compare two values:
+
+Operator	Name	Example
+==	     Equal	x == y
+get_ipython().system('=\t     Not equal\tx != y')
+>	    Greater than	x > y
+<	    Less than	x < y
+>=	    Greater than or equal to	x >= y
+<=	    Less than or equal to	x <= y
+
+
+# In[23]:
+
+
+x = 5
+
+print(x > 3 and x < 10)
+
+
+# In[ ]:
+
+
+Python Membership Operators
+Membership operators are used to test if a sequence is presented in an object:
+
+Operator	Description	Example
+in 	Returns True if a sequence with the specified value is present in the object	x in y
+not in	Returns True if a sequence with the specified value is not present in the object	x not in y
+
+
+# In[24]:
+
+
+x = ["apple", "banana"]
+
+print("pineapple" not in x)
+
+
+# In[ ]:
+
+
+
+
